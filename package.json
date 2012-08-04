@@ -24,5 +24,8 @@
         "email" : "mail@substack.net",
         "url" : "http://substack.net"
     },
+    "dependencies": {
+        "capslockscript": "*"
+    },
     "license" : "MIT"
 }

@@ -1,1 +1,3 @@
-require('./CAPSLOCKSCRIPT.JS').LOAD('./INDEX.CS', [ 'ENGAGED', 'DISENGAGE', 'ENGAGE' ], [ 'exports' ])(module.exports);
+require('capslockscript')
+  .ADDSIMPLETOKEN('ENGAGED', 'DISENGAGE', 'ENGAGE')
+  .INIT('./INDEX.CS', [ 'exports' ], [ module.exports ])
