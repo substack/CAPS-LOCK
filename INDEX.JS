@@ -1,3 +1,3 @@
 require('capslockscript')
   .ADDSIMPLETOKEN('ENGAGED', 'DISENGAGE', 'ENGAGE')
-  .INIT('./INDEX.CS', [ 'exports' ], [ module.exports ])
+  .INIT(require('path').join(__dirname, './INDEX.CS'), [ 'exports' ], [ module.exports ])
