@@ -25,7 +25,7 @@
         "url" : "http://substack.net"
     },
     "dependencies": {
-        "capslockscript": "*"
+        "capslockscript": ">=0.0.1"
     },
     "license" : "MIT"
 }
